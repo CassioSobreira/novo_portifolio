@@ -48,7 +48,7 @@ const Sidebar = () => {
         <div className="flex justify-center space-x-6">
         
           <a
-            href="https://github.com/SEU_USUARIO_DO_GITHUB"
+            href="https://github.com/CassioSobreira"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Link para o perfil do Github"
@@ -56,7 +56,7 @@ const Sidebar = () => {
             <Github size={24} className="hover:text-orange-400 transition-colors" />
           </a>
           <a
-            href="https://linkedin.com/in/SEU_USUARIO_DO_LINKEDIN"
+            href="https://www.linkedin.com/in/c%C3%A1ssio-sobreira-a45329366/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Link para o perfil do Linkedin"
@@ -64,7 +64,7 @@ const Sidebar = () => {
             <Linkedin size={24} className="hover:text-orange-400 transition-colors" />
           </a>
           <a
-            href="https://instagram.com/SEU_USUARIO_DO_INSTAGRAM"
+            href="https://www.instagram.com/cassio_sobreira/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Link para o perfil do Instagram"

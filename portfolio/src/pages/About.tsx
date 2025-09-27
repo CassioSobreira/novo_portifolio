@@ -1,4 +1,4 @@
-import { Building, GraduationCap, MapPin, Sparkles } from 'lucide-react';
+import { GraduationCap, MapPin, Sparkles } from 'lucide-react';
 import profileImage from '../assets/profile.png';
 
 const About = () => {
