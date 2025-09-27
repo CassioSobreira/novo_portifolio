@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Fundo com cantos arredondados, usando a cor escura do seu portfólio -->
+  <rect width="100" height="100" rx="20" fill="#1a202c"/>
+  
+  <!-- Letra 'C' estilizada com a cor de destaque (laranja) -->
+  <text 
+    x="50%" 
+    y="50%" 
+    dominant-baseline="central" 
+    text-anchor="middle" 
+    font-family="monospace, sans-serif" 
+    font-size="65" 
+    font-weight="bold" 
+    fill="#fb923c">
+    C
+  </text>
+</svg>

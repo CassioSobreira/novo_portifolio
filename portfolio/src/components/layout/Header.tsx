@@ -15,10 +15,7 @@ const Header = () => {
         <NavLink to="/portfolio" style={({ isActive }) => isActive ? activeStyle : {}} className="text-gray-300 hover:text-orange-400 transition-colors pb-1">
           Portfólio
         </NavLink>
-        {/* Você pode adicionar mais links como "Resumo" ou "Contato" */}
-        <a href="#contact" className="text-gray-300 hover:text-orange-400 transition-colors pb-1">
-          Contato
-        </a>
+        
       </nav>
     </header>
   );

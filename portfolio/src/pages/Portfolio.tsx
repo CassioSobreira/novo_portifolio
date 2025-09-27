@@ -1,32 +1,30 @@
 import ProjectCard from '../components/common/ProjectCard';
 import type { Project } from '../types';
 
-// Dados de exemplo. Substitua pelos seus projetos.
+// Passo 1: Importe os screenshots dos seus projetos
+import geradorIngressosImg from '../assets/gerador-ingressos.png';
+import calculadoraIdadeImg from '../assets/calculadora-idade.png';
+
+// Dados dos projetos agora usando as imagens locais
 const myProjects: Project[] = [
   {
-    title: 'Sistema de Finanças',
-    description: 'Uma plataforma completa para gerenciamento financeiro pessoal, com dashboard, extratos e controle de despesas.',
-    imageUrl: 'https://placehold.co/600x400/1a202c/fb923c?text=Finance+Manager',
-    liveUrl: '#',
-    repoUrl: '#',
-    tags: ['React', 'TypeScript', 'TailwindCSS', 'Firebase']
+    title: 'Gerador de Ingressos',
+    description: 'Uma ferramenta web intuitiva para criar tickets de eventos personalizados. Insira suas informações, personalize o design e gere uma imagem pronta para ser compartilhada ou impressa.',
+    // Passo 2: Use a variável da imagem importada
+    imageUrl: geradorIngressosImg,
+    liveUrl: 'https://ticket-generator.cassiovinicius.dev/',
+    repoUrl: 'https://github.com/CassioSobreira/emitir-ingressos',
+    tags: ['HTML', 'CSS', 'JavaScript' ]
   },
   {
-    title: 'Dashboard de Análises',
-    description: 'Um dashboard interativo para visualização de dados complexos, com gráficos e filtros dinâmicos.',
-    imageUrl: 'https://placehold.co/600x400/1a202c/fb923c?text=Data+Dashboard',
-    liveUrl: '#',
-    repoUrl: '#',
-    tags: ['React', 'D3.js', 'Styled-Components']
+    title: 'Calculadora de Idade',
+    description: 'Descubra sua idade em anos, meses e dias com esta ferramenta simples e rápida. Uma interface limpa e direta, projetada para fornecer uma resposta precisa e imediata.',
+    // Passo 2: Use a variável da imagem importada
+    imageUrl: calculadoraIdadeImg,
+    liveUrl: 'https://calculadoradeidade.cassiovinicius.dev/',
+    repoUrl: 'https://github.com/CassioSobreira/Calculadora_de_Idade',
+    tags: ['React', 'Tailwind']
   },
-  {
-    title: 'E-commerce de Eletrônicos',
-    description: 'Loja virtual com catálogo de produtos, carrinho de compras e integração com sistema de pagamento.',
-    imageUrl: 'https://placehold.co/600x400/1a202c/fb923c?text=E-commerce',
-    liveUrl: '#',
-    repoUrl: '#',
-    tags: ['Next.js', 'Stripe', 'GraphQL']
-  }
 ];
 
 const Portfolio = () => {
@@ -46,3 +44,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
